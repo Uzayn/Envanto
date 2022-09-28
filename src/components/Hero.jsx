@@ -1,10 +1,15 @@
 import React from 'react'
 import { Navbar } from '.'
+import styles from '../style'
 
 const Hero = () => {
   return (
     <section>
-      <Navbar />
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth}`}>
+              <Navbar />
+          </div>
+      </div>
       
     </section>
   )
