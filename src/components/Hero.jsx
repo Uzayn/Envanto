@@ -11,7 +11,7 @@ const Hero = () => {
           </div>
       </div>
       
-      <div id="home" className={` md:bg-transparent flex md:flex-row flex-col ${styles.paddingY} absolute bottom-0 left-0`}>
+      <div id="home" className={` md:bg-transparent flex md:flex-row flex-col ${styles.paddingY} absolute bottom-20 left-0`}>
         <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
           <h1 className="font-Lato font-bold ss:text-[68px] text-[24px] lg:text-[48px] text-[#F2F2F2] md:text-dimBlack ss:leading-[100px] leading-[28.8px] md:leading-[58px]">
             Hello, <br/>
