@@ -13,6 +13,9 @@ import Arrow from "./Arrow.png"
 import ArrowLeft from "./ArrowLeft.png"
 import ArrowRight from "./ArrowRight.png"
 import MobileGalleryImg from "./MobileGalleryImg.png"
+import checkDC from "./checkDC.png"
+import terraKulture from "./terraKulture.png"
+import vogue from "./vogue.png"
 
 export {
     heroImg,
@@ -29,5 +32,8 @@ export {
     Arrow,
     ArrowLeft,
     ArrowRight,
-    MobileGalleryImg
+    MobileGalleryImg,
+    checkDC,
+    terraKulture,
+    vogue
 };

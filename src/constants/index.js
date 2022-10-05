@@ -1,4 +1,5 @@
 import { GalleryImg1, GalleryImg2, GalleryImg3, GalleryImg4, GalleryImg5, GalleryImg6 } from "../assets";
+import { checkDC, terraKulture, vogue } from "../assets";
 
 export const navLinks = [{
         id: "home",
@@ -45,5 +46,19 @@ export const GalleryImgs = [{
     {
         id: "img6",
         img: GalleryImg6
+    }
+]
+
+export const clientImgs = [{
+        id: "cImg1",
+        img: checkDC
+    },
+    {
+        id: "cImg2",
+        img: vogue
+    },
+    {
+        id: "cImg3",
+        img: terraKulture
     }
 ]
