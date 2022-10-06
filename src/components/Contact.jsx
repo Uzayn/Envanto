@@ -12,22 +12,27 @@ const Contacts = () => {
         <p className='flex justify-center'>Need anything? Kindly fill the form below</p>
       </div>
 
-      <div className={`${styles.paddingX} ${styles.paddingY} flex `}>
-        <div>
+      <div className={`${styles.paddingX} ${styles.paddingY} flex`}>
+        <div className='mr-[125px]'>
           <img src={aboutImg} alt="" />
         </div>
         <div className='font-Lato font-normal text-[24px] leading-[21px]'>
           <div>
-            Name <input type="text" name="" id="" />
+            Name <input type="text" className='w-[505px] h-[60px] ml-[42px] mt-[20px] mb-[40px] border border-grey rounded bg-transparent' />
           </div>
           <div>
-            Email <input type="email" name="" id="" />
+            Email <input type="email" className='w-[505px] h-[60px] ml-[46px] mb-[40px] border border-grey rounded bg-transparent'/>
           </div>
           <div>
-            Subject <input type="text" />
+            Subject <input type="text" className='w-[505px] h-[60px] ml-[26px] mb-[40px] border border-grey rounded bg-transparent' />
           </div>
-          <div>
-            Message <input type="text" />
+          <div className='mb-[71px] items-start'>
+            Message <input type="text" className='w-[505px] h-[228px] ml-[12px] border border-grey rounded bg-transparent' />
+          </div>
+          <div className='ml-[230px]'>
+            <button>
+              Send Message
+            </button>
           </div>
         </div>
       </div>
