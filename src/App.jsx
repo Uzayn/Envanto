@@ -1,9 +1,9 @@
 import React from 'react'
-import { Hero, About, Gallery, Clients } from "./components";
+import { Hero, About, Gallery, Clients, Contacts } from "./components";
 
 const App = () => {
   return (
-    <div className='bg-white'>
+    <div className='bg-whiteG'>
       <div>
           <Hero />
       </div>
@@ -12,7 +12,7 @@ const App = () => {
           <About />
           <Gallery />
           <Clients />
-          Contact
+          <Contacts />
           Footer
       </div>
     </div>
