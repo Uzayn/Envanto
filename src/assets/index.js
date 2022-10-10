@@ -16,6 +16,9 @@ import MobileGalleryImg from "./MobileGalleryImg.png"
 import checkDC from "./checkDC.png"
 import terraKulture from "./terraKulture.png"
 import vogue from "./vogue.png"
+import instagram from "./instagram.png"
+import twitter from "./twitter.png"
+import youtube from "./youtube.png"
 
 export {
     heroImg,
@@ -35,5 +38,8 @@ export {
     MobileGalleryImg,
     checkDC,
     terraKulture,
-    vogue
+    vogue,
+    instagram,
+    twitter,
+    youtube,
 };

@@ -1,5 +1,6 @@
 import { GalleryImg1, GalleryImg2, GalleryImg3, GalleryImg4, GalleryImg5, GalleryImg6 } from "../assets";
 import { checkDC, terraKulture, vogue } from "../assets";
+import { twitter, instagram, youtube } from "../assets";
 
 export const navLinks = [{
         id: "home",
@@ -60,5 +61,19 @@ export const clientImgs = [{
     {
         id: "cImg3",
         img: terraKulture
+    }
+]
+
+export const socialIcons = [{
+        id: "sIcon1",
+        icon: twitter
+    },
+    {
+        id: "sIcon2",
+        icon: instagram
+    },
+    {
+        id: "sIcon3",
+        icon: youtube
     }
 ]
