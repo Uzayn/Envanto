@@ -3,7 +3,7 @@ import { Hero, About, Gallery, Clients, Contacts } from "./components";
 
 const App = () => {
   return (
-    <div className='bg-whiteG'>
+    <div className='bg-whiteG text-dimBlack'>
       <div>
           <Hero />
       </div>
