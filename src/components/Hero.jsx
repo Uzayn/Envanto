@@ -4,7 +4,7 @@ import styles from '../style'
 
 const Hero = () => {
   return (
-    <section className="bg-[url('./assets/heroImg2.png')] lg:bg-[url('./assets/heroImg.png')] h-screen bg-cover bg-center">
+    <section className="bg-[url('./assets/heroImg2.png')] md:bg-[url('./assets/heroImg2.png')] lg:bg-[url('./assets/heroImg.png')] h-screen bg-cover bg-bottom">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
               <Navbar />
@@ -18,14 +18,13 @@ const Hero = () => {
             I am Paul Amusan
           </h1>
           <p className={`${styles.paragraph} max-w-[467px] mt-5 text-12px lg:text-[16px] text-[#F2F2F2] md:text-dimBlack font-Lato font-light leading-[18px] md:leading-[24px]`}>
-            Paul Amusan is a young, energetic, and talented fashion designer who focuses on his men’s clothing line, Paul Amusan. His work draws inspiration from local Nigerian fabrics coupled with Japanese tailoring designs. His designs are masculine, yet modern and trendy by way of transforming an ordinary look into a sophisticated design that embraces elegance.
+            Paul Amusan is a young, energetic, and talented fashion designer who focuses on his men’s clothing line, Paul Amusan. His work draws inspiration from local Nigerian fabrics coupled with Japanese tailoring designs. <span className=' '>His designs are masculine, yet modern and trendy by way of transforming an ordinary look into a sophisticated design that embraces elegance.</span> 
           </p>
           <button type='button' className={`mt-[32px] border border-dimBlack py-4 px-6 w-[189px] h-[74px] font-Lato font-normal text-[18px] text-dimBlack leading-[21px] outline-none} ${styles} md:block hidden`}>
             Hire Me
           </button>
         </div>
       </div>
-
     </section>
   )
 }

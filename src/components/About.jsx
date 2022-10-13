@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <div className='w-[715px] md:h-[504px] flex-1'>
-          <h1 className='ml-6 md:ml-0 font-Lato font-bold ss:text-[68px] text-[24px] lg:text-[32px] text-dimblack ss:leading-[100px] leading-[28.8px] md:leading-[58px]'>
+          <h1 className='ml-6 md:ml-0 font-Lato font-bold ss:text-[68px] text-[24px] md:flex lg:text-[32px] text-dimblack ss:leading-[100px] leading-[28.8px] md:leading-[58px]'>
             About Me
           </h1>
           <p className={`text-dimBlack text-[9px] md:text-[16px] leading-[24px] w-[243px] md:w-[715px] font-normal font-Lato mt-5`}>
