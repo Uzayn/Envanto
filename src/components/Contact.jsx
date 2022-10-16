@@ -16,7 +16,7 @@ const Contacts = () => {
         <div className='mr-[125px] hidden md:flex'>
           <img src={aboutImg} alt="" />
         </div>
-        <div className='font-Lato font-normal text-[24px] leading-[21px] w-full overflow-hidden'>
+        <div className='font-Lato font-normal text-[24px] leading-[21px] w-fit overflow-hidden'>
           <div className='md:flex'>
             <div className='font-Lato font-normal text-dimBlack text-[14px] md:text-[24px] leading-[21px]'>Name</div>
             <div>
